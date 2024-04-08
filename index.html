@@ -33,6 +33,9 @@
       * {
         margin: 0px;
       }
+      .longInput {
+        width: 85%;
+      }
     </style>
   </head>
 
@@ -437,7 +440,142 @@
           <td></td>
           <td colspan="2"><b>15.Verification</b></td>
         </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            I/We <input style="width: 300px" type="text" id="" name="" />,the
+            applicant in the capacity of
+            <select style="width: 400px" name="countryCode" id="countryCode">
+              <option value="--Please select--">--Please select--</option>
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+            </select>
+            , do hereby declare that what is stated above is true to the best of
+            my information and belief.<br />
+            I have enclosed <input type="text" id="" name="" />(number of
+            documnets) insupport of proposed changes/corrections.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            Place <input type="text" id="place" name="place" />
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td colspan="2">
+            <div style="display: inline-block"><br />Verified today the</div>
+            <div style="display: inline-block">
+              DD MM YYYY<br />
+              18-06-2024
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            I/We ahave enclosed<br />
+            <select class="longInput" name="idProof" id="idProof">
+              <option value="--Please select--">--Please select--</option>
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+            </select>
+            ,as proof of identity<br />
+            <select class="longInput" name="idAddress" id="idAddress">
+              <option value="--Please select--">--Please select--</option>
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+            </select>
+            ,as proof of address<br />
+            <select class="longInput" name="idDOB" id="idDOB">
+              <option value="--Please select--">--Please select--</option>
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+            </select>
+            ,as proof of date of birth<br />
+
+            and
+            <select name="idPAN" id="idPAN">
+              <option value="--Please select--">--Please select--</option>
+              <option value="1">1</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+            </select>
+            ,as proof of PANs alloted<br />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            <span style="color: black; margin-right: 100px"
+              ><b>Whether you wish to have?</b></span
+            >
+            <input type="radio" id="type" name="type" /><label
+              style="margin-right: 50px"
+              for="type"
+              >Physical PAN card and e-PAN card</label
+            >
+            <input type="radio" id="type" name="type" /><label
+              style="margin-right: 50px"
+              for="type"
+              >Only e-PAN card</label
+            >
+            <b
+              ><u style="color: black"><i>Fees applicable</i></u></b
+            >
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2"><b> Other Details </b></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2"><b>1.Depository Accoutn Details </b></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">
+            <b>DP ID: </b><input style="margin-right: 30px" type="text" /><b
+              >Client ID: </b
+            ><input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2"><b>Payment Details </b></td>
+        </tr>
+        <tr>
+          <td><input type="radio" /></td>
+          <td colspan="2"><b>Online Payment </b></td>
+        </tr>
       </tbody>
     </table>
+    <span style="color: black"
+      >For paperless PAN application : <input type="radio" name="option" /> Yes
+      <input type="radio" name="option" /> No </span
+    ><br />
+    &nbsp;&nbsp;
+    <input type="radio" name="dsc" />
+    DSC&nbsp;&nbsp;
+    <select name="dsc" id="dsc">
+      <option value="--Select--">--Please select--</option>
+      <option value="1">1</option>
+      <option value="1">2</option>
+      <option value="1">3</option>
+      <option value="1">4</option></select
+    >&nbsp;&nbsp;&nbsp; &nbsp;
+    <u style="color: brown">Guidelines for DSC user</u>
   </body>
 </html>
